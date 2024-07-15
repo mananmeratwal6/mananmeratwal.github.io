@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: 2px solid black;
+      }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        background-color: rgb(7, 165, 163);
+        gap: 80px;
+    }
+    .logo{
+        font-size: 50px;
+        font-family: cursive;
+        color: white;
+        text-shadow: 5px 5px 3px gray;
+    }
+    .main-navbar{
+        display: flex;
+        gap: 80px;
+        
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        list-style-type: none;
+        gap: 50px;
+        height: 80px;
+
+
+    }
+    ul li{
+        /* display: flex; */
+        color: white;
+        font-size: 30px;
+    }
+    .hamburgr-menu{
+        font-size: medium;
+        font-family: cursive;
+        color: blue;
+    }
+        </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">MM</div>
+        
+        <div class="main-navbar">
+            <div class="navbar-menu">
+                <ul>
+                    <li>home</li>
+                    <li>Region</li>
+                </ul>
+            </div>
+        </div>
+        <div class="hamburger-menu">
+            >>>
+        </div>
+    </div>
+</body>
+</html>
